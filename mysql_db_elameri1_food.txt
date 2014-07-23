@@ -1,0 +1,19 @@
+
+CREATE TABLE Orders
+(
+ID INT NOT NULL AUTO_INCREMENT, 
+PRIMARY KEY(ID),
+Phone CHAR(15),
+Room VARCHAR(150),
+Status CHAR(15),
+StartTime Datetime,
+EndTime TIMESTAMP DEFAULT 0
+);
+
+
+
+<form name='input' action='update.php' method='get'>
+Username: <input type='text' name='message'>
+<input type='submit' value='Submit'>
+<input type='hidden' name='id' value='Norway'>
+</form>
